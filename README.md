@@ -1,7 +1,5 @@
 # Bamazon-Customer
 
-# Bamazon-Customer
-
 Welcome to my replica of BamazonCustomer.js
 
 This node.js backend application is intended for users to purchase an item from my very own Bamazon inventory items that's for sale, then once an item is purchased, the inventory will automatically update with one less of the item that was previously purchased.
@@ -32,6 +30,7 @@ Used "queryStr" to Query db to confirm that the given item ID exists in the desi
 
 When I run the bamazonCustomer.js. application -- It  1st --- display all of the items available for sale. Include the ids, names, and prices of products for sale.
 
+
 The app will then prompt users with two messages.
 
     1st should ask them the ID of the product they would like to buy.
@@ -43,4 +42,10 @@ However, if the store does have enough of the product, it fulfills the customer'
 
 This means the SQL database updates to reflect the remaining quantity.
 Once the update goes through, it shows the customer the total cost of their purchase.
+
+![](images/viewProducts.png)
+
+![](images/schemas.png)
+
+![](images/quit.png)
 
